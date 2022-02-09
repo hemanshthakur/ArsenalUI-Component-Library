@@ -1,6 +1,4 @@
-:root{
-    --sub-text-color:gray;
-}
+@import "/containers/css/component-style.css";
 .text-container{
     display: flex;
 }
