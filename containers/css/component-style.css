@@ -22,4 +22,10 @@
     --btn-floater:red;
     --btn-shader:gray;
 
+    /* cards */
+    --card-primary-primary:black;
+    --card-secondary-color:white;
+    --card-shader-color:lightgray;
+    --card-badge-color:red;
+
 }

@@ -1,10 +1,4 @@
-/* @import "/containers/css/style.css"; */
-:root{
-    --card-primary-primary:black;
-    --card-secondary-color:white;
-    --card-shader-color:lightgray;
-    --card-badge-color:red;
-}
+@import "/containers/css/component-style.css";
 .card-container{
    margin: 1rem;
    display: flex;
