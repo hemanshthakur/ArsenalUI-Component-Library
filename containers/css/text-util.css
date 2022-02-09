@@ -1,0 +1,19 @@
+@import "/containers/css/component-style.css";
+.text-container{
+    display: flex;
+}
+.heading-containers{
+    margin: 1rem;
+}
+.other-formats{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-evenly;
+}
+.gray-text{
+    color: var(--sub-text-color);
+}
+.aligned-center{
+    text-align: center;
+}
