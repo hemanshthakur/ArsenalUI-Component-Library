@@ -1,10 +1,4 @@
-/* @import "/containers/css/style.css"; */
-:root{
-    --btn-primary:black;
-   --btn-secondary:white;
-   --btn-floater:red;
-   --btn-shader:gray;
-}
+@import "/containers/css/component-style.css";
 .button-containers{
     margin-top: 2rem;
 }
