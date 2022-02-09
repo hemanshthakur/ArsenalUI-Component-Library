@@ -10,4 +10,10 @@
     --avatar-background-color:grey;
     --avatar-primary-color:white;
 
+    /* badges */
+    --badge-inactive:red;
+    --badge-active:green;
+    --badge-neutral:darkgray;
+    --badge-primary-color:white;
+
 }
