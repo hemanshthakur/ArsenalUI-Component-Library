@@ -1,0 +1,19 @@
+:root{
+    /* alert */
+    --alert-error-color:red;
+    --alert-success-color:green;
+    --alert-neutral-color:rgb(39, 38, 38);
+    --alert-background-color:grey;
+    --alert-primary-color:white;
+
+    /* avatar */
+    --avatar-background-color:grey;
+    --avatar-primary-color:white;
+
+    /* badges */
+    --badge-inactive:red;
+    --badge-active:green;
+    --badge-neutral:darkgray;
+    --badge-primary-color:white;
+
+}
