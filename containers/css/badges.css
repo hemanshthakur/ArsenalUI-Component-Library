@@ -1,10 +1,4 @@
-/* @import "/containers/css/style.css"; */
-:root{
-    --badge-inactive:red;
-    --badge-active:green;
-    --badge-neutral:darkgray;
-    --badge-primary-color:white;
-}
+@import "/containers/css/style.css";
 .avatar{
     vertical-align: middle;
     margin: 1rem;
