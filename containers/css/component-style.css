@@ -16,4 +16,10 @@
     --badge-neutral:darkgray;
     --badge-primary-color:white;
 
+    /* buttons */
+    --btn-primary:black;
+    --btn-secondary:white;
+    --btn-floater:red;
+    --btn-shader:gray;
+
 }
