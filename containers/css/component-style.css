@@ -5,4 +5,9 @@
     --alert-neutral-color:rgb(39, 38, 38);
     --alert-background-color:grey;
     --alert-primary-color:white;
+
+    /* avatar */
+    --avatar-background-color:grey;
+    --avatar-primary-color:white;
+
 }
