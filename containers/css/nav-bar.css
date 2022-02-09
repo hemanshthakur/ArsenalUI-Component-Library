@@ -1,7 +1,4 @@
-:root{
-    --navbar-primary-color:black;
-    --navbar-secondary-color:white;
-}
+@import "/containers/css/component-style.css";
 body{
     margin: 0;
 }

@@ -28,4 +28,8 @@
     --card-shader-color:lightgray;
     --card-badge-color:red;
 
+    /* nav-bar */
+    --navbar-primary-color:black;
+    --navbar-secondary-color:white;
+
 }
