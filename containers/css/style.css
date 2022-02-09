@@ -1,0 +1,115 @@
+@import "/containers/css/component-style.css";
+body {
+    background-image: url('/containers/assets/landing-page/bg-img-main.jpg');
+    /* background-color:black; */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--lander-primary-colour);
+    font-family: 'Murecho', sans-serif;
+    margin: 0rem;
+}
+
+.header-tag {
+    font-size: 3rem;
+    margin:0rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    background-color: var(--lander-hover-over);
+    border-bottom-right-radius:2rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+      
+      position:relative;
+      display:flex;
+      flex-direction: column;
+      list-style-type: none;
+      font-size: 1.5rem;
+      /* margin-top: 0rem; */
+      
+}
+.list-items{
+     display: inline;
+     text-decoration: none;
+     margin: 2rem 1rem;
+     justify-self: flex-start;
+}
+.header-tag .lists{
+    position:relative;
+    right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    margin: 0rem;
+    align-self: flex-end;
+}
+.header-tag  a{
+    color: var(--lander-secondary-colour);
+}
+.header-tag a:hover{
+   color: var(--lander-primary-colour);
+}
+.header-tag .list-items :hover{
+    color: var(--lander-hover-over);
+ }
+ 
+ .header-tag .list-items .btn-items:hover {
+    color: var(--lander-hover-over);
+ }
+.main-container{
+    display: flex;
+    justify-content: stretch;
+    margin-top: 5rem;
+    
+}
+.text-and-btn{
+   display: flex;
+   justify-content: center;
+}
+.main-text{
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 50%;
+    font-size: 4rem;
+    /* margin-top: 0rem;
+    margin-left: 0rem; */
+}
+a{
+    text-decoration: none;
+    color: var(--lander-primary-colour);
+}
+.btn-get-started {
+    align-self:flex-end;
+    
+}
+.btn-get-started a{
+    border: 0.1rem solid var(--lander-primary-colour);
+    font-size: 1.5rem;
+    border-radius: 0.2rem ;
+    padding: 0.8rem 3rem ;
+}
+.btn-get-started a:hover{
+    border: 0.1rem solid  var(--lander-hover-over);
+    background-color: var(--lander-hover-over);
+    color: var(--lander-secondary-colour);
+    
+}
+.list-items a:hover{
+    color:var(--lander-hover-over);
+}
+.about-text{
+    align-self: center;
+    width: 70%;
+    font-size: 2rem;
+
+}
+.btn-items{
+    cursor: pointer;
+}
+@media (max-width:800px){
+    body{
+      font-size: 10px;
+    }
+}

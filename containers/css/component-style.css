@@ -1,4 +1,8 @@
 :root{
+    /* lander-page */
+    --lander-primary-colour:white;
+    --lander-secondary-colour:black;
+    --lander-hover-over: #00E1EF;
     /* alert */
     --alert-error-color:red;
     --alert-success-color:green;
