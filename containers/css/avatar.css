@@ -1,7 +1,4 @@
-:root{
-    --avatar-background-color:grey;
-    --avatar-primary-color:white;
-}
+@import "/containers/css/component-style.css";
 /* avatar-css */
 
 .avatar{
