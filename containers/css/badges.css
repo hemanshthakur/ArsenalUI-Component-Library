@@ -1,11 +1,4 @@
 @import "/containers/css/component-style.css";
-.avatar{
-    vertical-align: middle;
-    margin: 1rem;
-    border-radius:50% ;
-    width: 3rem;
-    height: 3rem;
-}
 .badges-container{
     margin: 1rem;
 }

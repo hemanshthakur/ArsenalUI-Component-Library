@@ -9,25 +9,25 @@
     padding: 0.5rem;
     border-radius: 0.3rem;
 }
-.primary{
+.btn-primary{
     border: 0.1rem solid var(--btn-primary) ;
     color: var(--btn-primary);
     background-color: var(--btn-secondary);
 }
-.secondary{
+.btn-secondary{
     color: var(--btn-secondary);
     background-color: var(--btn-primary);
 }
-.link{
+.btn-link{
     text-decoration: underline;
-    color: var(--btn-primary);
+    color: var(--btn-secondary);
 }
-.floating{
+.btn-floating{
     color: var(--btn-secondary);
     background-color: var(--btn-floater);
     box-shadow: 0 0 2rem  var(--btn-shader);
 }
 .icon-btn{
-    color:var(--btn-primary);
+    color:var(--btn-secondary);
     font-size: 2rem;
 }
