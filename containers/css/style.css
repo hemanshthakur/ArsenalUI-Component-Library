@@ -52,7 +52,7 @@ body {
    color: var(--lander-primary-colour);
 }
 .header-tag .list-items :hover{
-    color: var(--lander-hover-over);
+    color: var(--lander-primary-colour);
  }
  
  .header-tag .list-items .btn-items:hover {
